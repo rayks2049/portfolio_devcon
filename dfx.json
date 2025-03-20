@@ -1,13 +1,21 @@
 {
   "canisters": {
-<<<<<<< HEAD
-    "porfolio_backend": {
-      "main": "src/porfolio_backend/main.mo",
-=======
     "portfolio_devcon_backend": {
       "main": "src/portfolio_devcon_backend/main.mo",
->>>>>>> 921974c (Initial commit.)
       "type": "motoko"
+    }, 
+    "portfolio_devcon_frontend": {
+      "dependencies": [
+        "portfolio_devcon_backend"
+      ],
+      "frontend": {
+        "entrypoint": "src/index.html"
+      },
+      "source": [
+        "src/assets",
+        "dist/portfolio_devcon_frontend/"
+      ],
+      "type": "assets"
     }
   },
   "defaults": {
