@@ -1,7 +1,12 @@
 {
   "canisters": {
+<<<<<<< HEAD
     "porfolio_backend": {
       "main": "src/porfolio_backend/main.mo",
+=======
+    "portfolio_devcon_backend": {
+      "main": "src/portfolio_devcon_backend/main.mo",
+>>>>>>> 921974c (Initial commit.)
       "type": "motoko"
     }
   },
